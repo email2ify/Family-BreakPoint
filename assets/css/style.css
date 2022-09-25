@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Oswald:wght@300&display=swap');
+* {
+  margin: auto;
+  padding: auto;
+  border: auto;
+}
+
+ body {
+  font-family: oswald, sans-serif;
+  font-weight: 300%;
+  color: red;
+  background-color:#000000
+}
+
+ /* headings*/
+
+ h1, h3 {
+  font-family:  serif, sans-serif;
+  text-transform: uppercase;
+  letter-spacing:  4px;
+  color: white;
+}
+
+ #flogo {
+  float: left;
+  font-size: 600%;
+  margin-left: 30px;
+}
+
+ #slogo {
+  float: left;
+  font-size: 300%;
+  margin-left: 30px;
+  
+}
+ /* navi */
+
+ #home {
+  font-size: 110%;
+  letter-spacing: 4px;
+}
+
+ #home li {
+  float: right;
+  list-style-type: none;
+  margin-right:30px;
+}
+
+ #home a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ 
+
+ #home, a:hover {
+         border-bottom: 1px solid #0000FF;
+}
+
+    /*image*/
+
+ #little-girl {
+ background: url('../images/little\ girl.jpg ') no-repeat center center;
+ height: 600px;
+ width: 100%;
+ overflow: hidden;
+ position: relative;
+ 
+}
+/*little content*/
+
+#little-content {
+    height: 600px;
+}
+

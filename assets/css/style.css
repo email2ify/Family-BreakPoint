@@ -15,7 +15,7 @@
 
  /* headings*/
 
- h1, h3 {
+ h1, h2 {
   font-family:  serif, sans-serif;
   text-transform: uppercase;
   letter-spacing:  4px;
@@ -25,13 +25,15 @@
  #flogo {
   float: left;
   font-size: 600%;
-  margin-left: 30px;
+  margin-left: 200px;
 }
 
  #slogo {
   float: left;
   font-size: 300%;
-  margin-left: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+
   
 }
  /* navi */
@@ -61,16 +63,38 @@
     /*image*/
 
  #little-girl {
- background: url('../images/little\ girl.jpg ') no-repeat center center;
+ background: url('../images/litte\ girl.jpg') no-repeat center center;
  height: 600px;
  width: 100%;
  overflow: hidden;
  position: relative;
- 
-}
-/*little content*/
+ margin-top: 1px;
 
-#little-content {
-    height: 600px;
+}
+ /*little content*/
+
+ .little-content, h3 {
+  font-family:  serif, sans-serif;
+  text-transform: lowercase;
+  letter-spacing:  4px;
+  color: white;
+    font-size: 30px;
+  
+    margin-left: 350px;
+    margin-bottom: 1px;
 }
 
+
+
+ /* 
+float: left;
+font-size: 300%;
+margin-left: 20px;
+margin-top: 20px;
+height: 60px;
+width: 60%;
+
+float: center;
+color: white;
+padding: 0;
+*/

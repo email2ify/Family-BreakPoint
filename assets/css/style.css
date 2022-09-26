@@ -110,6 +110,7 @@ p {
 
 }
 
+
     /*image for home page*/
 
  #little-girl {
@@ -143,19 +144,26 @@ p {
  
 }
 
+/* footer*/
 
+footer {
+  height: 150px;
+}
  
-
-/*
- .social-networks {
+.social-media {
   text-align: center;
- }
+}
 
- .social-networks > li {
+ .social-media > li {
   display: inline;
 }
-*/
 
+ .social-media i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: white;
+ }
 
 }
  /* 

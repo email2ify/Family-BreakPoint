@@ -15,7 +15,7 @@
 
  /* headings*/
 
- h1, h2 {
+ h1, h2, h3 {
   font-family:  serif, sans-serif;
   text-transform: uppercase;
   letter-spacing:  4px;
@@ -34,8 +34,26 @@
   margin-left: 20px;
   margin-top: 20px;
 
-  
 }
+ /*little content for header*/
+p {
+  font-family:  serif, sans-serif;
+  text-transform: uppercase;
+  letter-spacing:  4px;
+  color: yellowgreen;
+  margin-top: 50px;
+}
+
+#hdgirl {
+  
+  font-size: 140%;
+  height: 10px;
+  margin-left: 650px;
+  margin-top: 1px;
+}
+
+
+
  /* navi */
 
  #home {
@@ -62,49 +80,34 @@
          border-bottom: 1px solid #0000FF;
 }
 
-    /*image*/
+    /*image for home page*/
 
  #little-girl {
  background: url('../images/litte\ girl.jpg') no-repeat center center;
- height: 500px;
+ height: 450px;
  width: 100%;
  overflow: hidden;
  position: relative;
 
 }
 
- #little-girlinfo{
+  /*image for contact page*/
+
+ #little-girlinfo {
   background: url('../images/little\ girl2.jpg') no-repeat center center;
   height: 500px;
   width: 100%;
   overflow: hidden;
   position: relative;
 
- /*little content*/
+ 
 
-  .little-content, h3 {
-  font-family:  serif, sans-serif;
-  text-transform:lowercase;
-  letter-spacing: 4px;
-  color: yellow;
-  font-size: 30px;
-   margin-left: 350px;
-  margin-bottom: 1px;
+ 
 
-}
 
-  p {
-  font-family: serif, sans-serif;
-  font-weight: 300%;
-  color: yellowgreen;
-  letter-spacing: 4px;
-  margin-left: 50px;
-  margin-top: 5px;
-
-}
  .social-networks {
   text-align: center;
-}
+ }
 
  .social-networks > li {
   display: inline;
@@ -122,13 +125,13 @@
 
 }
 
-#about-lgmd{
+ #about-lgmd {
   font-family: serif, sans-serif;
   font-weight: 300%;
   color: yellowgreen;
   letter-spacing: 4px;
   margin-left: 500px;
-  margin-top: 100px;
+  margin-top: 200px;
  
 
 }

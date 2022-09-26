@@ -71,18 +71,24 @@
  overflow: hidden;
  position: relative;
 
-
 }
+
+ #little-girlinfo{
+  background: url('../images/little\ girl2.jpg') no-repeat center center;
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
  /*little content*/
 
- .little-content, h3 {
+  .little-content, h3 {
   font-family:  serif, sans-serif;
-  text-transform: lowercase;
-  letter-spacing:  4px;
+  text-transform:lowercase;
+  letter-spacing: 4px;
   color: yellow;
   font-size: 30px;
-  
-  margin-left: 350px;
+   margin-left: 350px;
   margin-bottom: 1px;
 
 }
@@ -96,8 +102,39 @@
   margin-top: 5px;
 
 }
+ .social-networks {
+  text-align: center;
+}
 
- }
+ .social-networks > li {
+  display: inline;
+}
+
+#contact-info {
+  font-family: serif, sans-serif;
+  font-weight: 110%;
+  color: yellowgreen;
+  letter-spacing: 7px;
+  margin-left: 30px;
+  margin-top: 10px;
+
+  
+
+}
+
+#about-lgmd{
+  font-family: serif, sans-serif;
+  font-weight: 300%;
+  color: yellowgreen;
+  letter-spacing: 4px;
+  margin-left: 500px;
+  margin-top: 100px;
+ 
+
+}
+
+
+}
  /* 
  float: left;
  font-size: 300%;

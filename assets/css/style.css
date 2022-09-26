@@ -15,7 +15,7 @@
 
  /* headings*/
 
- h1, h2, h3, h4 {
+ h1, h2, h3, h4, h5 {
   font-family:  serif, sans-serif;
   text-transform: uppercase;
   letter-spacing:  4px;
@@ -90,8 +90,17 @@ p {
 }
 
 
+.contact-lgmd {
+  font-family: serif, sans-serif;
+  font-weight: 300%;
+  color: yellowgreen;
+  letter-spacing: 4px;
+  margin-left: 5px;
+  margin-top: 30px;
 
-.about-lgmd, p {
+}
+
+.about-lgmd {
   font-family: serif, sans-serif;
   font-weight: 300%;
   color: yellowgreen;
@@ -123,8 +132,9 @@ p {
 
  }
 
+      /*image for about page*/
  
-.little-girlabt {
+#little-girlabt {
   background: url('../images/little\ girlabt.jpg') no-repeat center center;
   height: 500px;
   width: 100%;

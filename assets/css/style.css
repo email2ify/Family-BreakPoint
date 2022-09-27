@@ -11,12 +11,12 @@
   font-family: oswald, sans-serif;
   font-weight: 300%;
   color: red;
-  background-color:black
+  background-color:black;
 }
 
  /* headings*/
 
- h1, h2, h3, h4, h5 {
+ h1, h2, h3 {
   font-family:  serif, sans-serif;
   text-transform: uppercase;
   letter-spacing:  7px;
@@ -26,7 +26,7 @@
  #flogo {
   float: left;
   font-size: 600%;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
  #slogo {
@@ -37,19 +37,20 @@
 
 }
  /*little content for header*/
-p {
+ p {
   font-family:  serif, sans-serif;
   text-transform: uppercase;
   letter-spacing:  4px;
   color: yellowgreen;
   margin-top: 50px;
+  margin-left: 15px;
 }
 
-#hdgirl {
+ #hdgirl {
   
   font-size: 140%;
   height: 10px;
-  margin-left: 650px;
+  margin-left: 600px;
   margin-top: 1px;
 }
 
@@ -76,12 +77,12 @@ p {
   border-bottom: 1px solid yellowgreen;   
 }
 
-/* removed 1px solid*/
+ /* removed 1px solid*/
  #home, a:hover {
          border-bottom: yellowgreen;
 }
 
-#little-girlinfo {
+ #little-girlinfo {
   font-family: serif, sans-serif;
   font-weight: 110%;
   color: yellowgreen;
@@ -92,7 +93,7 @@ p {
 }
 
 
-.contact-lgmd {
+ .contact-lgmd {
   font-family: serif, sans-serif;
   font-weight: 300%;
   color: yellowgreen;
@@ -102,12 +103,12 @@ p {
 
 }
 
-.about-lgmd {
+ .about-lgmd {
   font-family: serif, sans-serif;
   font-weight: 300%;
   color: yellowgreen;
   letter-spacing: 4px;
-  margin-left: 5px;
+  margin-left: 1px;
   margin-top: 40px;
 
 }
@@ -117,7 +118,7 @@ p {
 
  #little-girl {
  background: url('../images/litte\ girl.jpg') no-repeat center center;
- height: 450px;
+ height: 500px;
  width: 100%;
  overflow: hidden;
  position: relative;
@@ -128,7 +129,7 @@ p {
 
  #little-girlinfo {
   background: url('../images/little\ girl2.jpg') no-repeat center center;
-  height: 500px;
+  height: 420px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -137,9 +138,9 @@ p {
 
       /*image for about page*/
  
-#little-girlabt {
+ #little-girlabt {
   background: url('../images/little\ girlabt.jpg') no-repeat center center;
-  height: 700px;
+  height: 570px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -148,12 +149,20 @@ p {
 
  /* footer*/
 
-footer {
-  height: 150px;
+ footer {
+  height: 100px;
+  margin-left: 10px;
 }
- 
+
+ hr{
+     margin-top: 80px;
+
+} 
+
  .social-media {
   text-align: left;
+  margin-top: 1%;
+
 }
 
  .social-media > li {
@@ -169,14 +178,14 @@ footer {
   margin-top: 1%;
 }
 
-.social-media i:hover {
+ .social-media i:hover {
   color: yellowgreen;
 }
-}
-/* media queries*/
+ }
+ /* media queries*/
 
-/* for larger medium screens size from 800px wide to down*/
-@media for screen and (min-width: 800px) {
+ /* for larger medium screens size from 800px wide to down*/
+ @media for screen and (min-width: 800px) {
   #body {
    width: 65%;
    height: 800px;
@@ -184,16 +193,3 @@ footer {
   }
 } 
   
-  
- /* 
- float: left;
- font-size: 300%;
- margin-left: 20px;
- margin-top: 20px;
- height: 60px;
- width: 60%;
-
- float: center;
- color: white;
- padding: 0;
- */

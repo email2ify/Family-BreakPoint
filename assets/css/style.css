@@ -7,6 +7,7 @@
 }
 
  body {
+  min-height: 100%;
   font-family: oswald, sans-serif;
   font-weight: 300%;
   color: red;
@@ -72,11 +73,12 @@ p {
 }
 
  .active {
-    border-bottom: 1px solid yellowgreen;
+  border-bottom: 1px solid yellowgreen;   
 }
 
+/* removed 1px solid*/
  #home, a:hover {
-         border-bottom: 1px solid #0000FF;
+         border-bottom: yellowgreen;
 }
 
 #little-girlinfo {
@@ -131,7 +133,7 @@ p {
   overflow: hidden;
   position: relative;
 
- }
+}
 
       /*image for about page*/
  
@@ -144,14 +146,14 @@ p {
  
 }
 
-/* footer*/
+ /* footer*/
 
 footer {
   height: 150px;
 }
  
-.social-media {
-  text-align: center;
+ .social-media {
+  text-align: left;
 }
 
  .social-media > li {
@@ -159,13 +161,30 @@ footer {
 }
 
  .social-media i {
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color: white;
- }
-
+  font-size: 180%;
+  margin: 2px;
+  padding: 1px;
+  color:yellowgreen;
+  margin-left: 50px;
+  margin-top: 1%;
 }
+
+.social-media i:hover {
+  color: yellowgreen;
+}
+}
+/* media queries*/
+
+/* for larger medium screens size from 800px wide to down*/
+@media for screen and (min-width: 800px) {
+  #body {
+   width: 65%;
+   height: 800px;
+   margin: 0 auto;
+  }
+} 
+  
+  
  /* 
  float: left;
  font-size: 300%;

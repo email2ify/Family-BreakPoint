@@ -1,226 +1,162 @@
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Oswald:wght@300&display=swap');
 * {
   margin: auto;
-  padding: auto;
-  border: auto;
 }
 
- body {
+body {
   min-height: 100%;
   font-family: oswald, sans-serif;
-  font-weight: 300%;
   color: red;
-  background-color:black;
+  background-color: black;
 }
 
- /* headings*/
+#home {
+  height: 60px;
+}
 
- #break-point {
-  height: 600px;
- }
-
- h1, h2, h3 {
-  font-family:  serif, sans-serif;
+h1,
+h2,
+h3 {
+  font-family: serif, sans-serif;
   text-transform: uppercase;
-  letter-spacing:  7px;
+  letter-spacing: 7px;
   color: white;
 }
 
- #flogo {
+#flogo {
   float: left;
-  font-size: 600%;
+  font-size: 300%;
   margin-left: 100px;
 }
 
- #slogo {
+#slogo {
   float: left;
   font-size: 300%;
   margin-left: 20px;
   margin-top: 20px;
-
 }
- /*little content for header*/
- p {
-  font-family:  serif, sans-serif;
+
+p {
+  font-family: serif, sans-serif;
   text-transform: uppercase;
-  letter-spacing:  4px;
+  letter-spacing: 4px;
   color: yellowgreen;
   margin-top: 50px;
   margin-left: 15px;
 }
 
- #hdgirl {
+#hdgirl {
   font-size: 140%;
   height: 10px;
-  margin-left: 600px;
+  margin-left: 60px;
   margin-top: 1px;
 }
 
-
- /* navi */
-
- #home {
+#home {
   font-size: 110%;
   letter-spacing: 4px;
 }
 
- #home li {
+#home li {
   float: right;
   list-style-type: none;
-  margin-right:30px;
+  margin-right: 30px;
 }
 
- #home a {
+#home a {
   text-decoration: none;
   color: inherit;
 }
 
- .active {
-  border-bottom: 1px solid yellowgreen;   
+.active {
+  border-bottom: 1px solid yellowgreen;
 }
 
- /* removed 1px solid*/
- #home, a:hover {
-         border-bottom: yellowgreen;
+#home,
+a:hover {
+  border-bottom: yellowgreen;
 }
 
- #little-girlinfo {
+#little-girlinfo {
   font-family: serif, sans-serif;
-  font-weight: 110%;
   color: yellowgreen;
   letter-spacing: 8px;
   margin-left: 50px;
   margin-top: 300px;
-
 }
 
- #name {
+#name {
   text-align: left;
   margin: 1px;
   font-size: 100%;
- }
+}
 
-
-
- .contact-lgmd {
+.contact-lgmd {
   font-family: serif, sans-serif;
-  font-weight: 300%;
   color: yellowgreen;
   letter-spacing: 4px;
   margin-left: 5px;
   margin-top: 30px;
-
 }
 
- .about-lgmd {
+.about-lgmd {
   font-family: serif, sans-serif;
-  font-weight: 300%;
   color: yellowgreen;
   letter-spacing: 4px;
   margin-left: 1px;
   margin-top: 40px;
-
 }
 
-
-    /*image for home page*/
-
- #little-girl {
- background: url('../images/litte\ girl.jpg') no-repeat center center;
- height: 500px;
- width: 100%;
- overflow: hidden;
- position: relative;
-
+#little-girl {
+  background: url("../images/litte\ girl.jpg") center center no-repeat;
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
-  /*image for contact page*/
-
- #little-girlinfo {
-  background: url('../images/little\ girl2.jpg') no-repeat center center;
+#little-girlinfo {
+  background: url("../images/little\ girl2.jpg") center center no-repeat;
   height: 420px;
   width: 100%;
   overflow: hidden;
   position: relative;
-
 }
 
-      /*image for about page*/
- 
- #little-girlabt {
-  background: url('../images/little\ girlabt.jpg') no-repeat center center;
+#little-girlabt {
+  background: url("../images/little\ girlabt.jpg") center center no-repeat;
   height: 570px;
   width: 100%;
   overflow: hidden;
   position: relative;
- 
 }
 
- /* footer*/
-
- footer {
+footer {
   height: 100px;
   margin-left: 10px;
 }
 
- hr{
-     margin-top: 80px;
-
-} 
-
- .social-media {
-  text-align: left;
-  margin-top: 1%;
-
+hr {
+  margin-top: 80px;
 }
 
- .social-media > li {
+.social-media {
+  text-align: left;
+  margin-top: 1%;
+}
+
+.social-media>li {
   display: inline;
 }
 
- .social-media i {
+.social-media i {
   font-size: 180%;
   margin: 2px;
   padding: 1px;
-  color:yellowgreen;
+  color: yellowgreen;
   margin-left: 50px;
   margin-top: 1%;
 }
 
- .social-media i:hover {
+.social-media i:hover {
   color: yellowgreen;
 }
- }
- /* media queries*/
-
- /* for larger medium screens size from 800px wide to down*/
- 
- @media for screen and (min-width: 1200px) {
-  #break-point {
-   width: 65%;
-   height: 1200px;
-   margin: 0 auto;
-  }
-  #name {
-    padding: 30px 0;
-    margin: 0;
-  }
-
-  #little-girl, #hdgirl, #name {
-    width: 100%;
-    float: left;
-    padding: 0;
-  }
-  #little-girl, #name {
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
-
-  }
-  hr {
-    display: none;
-  }
-} 
-  

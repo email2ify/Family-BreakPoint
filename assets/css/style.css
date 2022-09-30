@@ -121,7 +121,7 @@
   position : relative;
   }
   footer {
-  height : 200px;
+  height : 400px;
   margin-left : 10px;
   }
   hr {
@@ -148,3 +148,30 @@
   .social-media i:hover {
   color : yellowgreen;
   }
+
+  
+#seminer {
+  height: 200%;
+ 
+  
+}
+  
+
+
+#seminer div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, .6);
+  width: 20%;
+  height:250px;
+  float: left;
+  padding: 30px 0 0 10px;
+  text-align: left;
+  border: 2px solid #3a3a3a;
+  box-sizing: border-box;
+  margin-top : 450px;
+}
+
+#seminer h2, h3 {
+  color: yellow;
+  
+}

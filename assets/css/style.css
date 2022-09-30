@@ -1,22 +1,19 @@
-* {
-  margin : auto;
-  }
-  body {
+body {
   min-height : 100%;
-  font-family : oswald, sans-serif;
+  font-family : serif, sans-serif;
   color : red;
   background-color : black;
   }
   #home {
-  height : 60px;
+  height : 50px;
   }
   h1, h2, h3, h7 {
   font-family : serif, sans-serif;
-  text-transform : uppercase;
+  text-transform : none;
   letter-spacing : 7px;
   color : white;
   }
-   #flogo, #slogo {
+  #Slogo {
   float : left;
   font-size : 300%;
   margin-left : 50px;
@@ -27,7 +24,7 @@
   text-transform : none;
   letter-spacing : 4px;
   color : yellowgreen;
-  margin-top : 50px;
+  margin-top : 70px;
   margin-left : 15px;
   }
   #hdgirl {
@@ -148,109 +145,161 @@
   .media i:hover {
   color : yellowgreen;
   }
-
-  
-#seminer {
-  height: 200%;
- 
-}
-  
-
-
-#seminer div {
-  color: #fafafa;
-  background-color: rgba(0, 0, 0, .6);
-  width: 20%;
-  height:250px;
-  float: left;
-  padding: 30px 0 0 10px;
-  text-align: left;
-  border: 2px solid #3a3a3a;
-  box-sizing: border-box;
+  #seminer {
+  height : 200%;
+  }
+  .now {
+  text-align : center;
+  height : 4%;
+  }
+  #seminer div {
+  color : #fafafa;
+  background-color : rgb(0, 0, 0, 0.6);
+  width : 20%;
+  height : 250px;
+  float : left;
+  padding : 30px 0 0 10px;
+  text-align : left;
+  border : #3a3a3a solid 2px;
+  box-sizing : border-box;
   margin-top : 450px;
+  }
+  #seminer h2, h3 {
+  color : yellow;
+  }
+  body {
+  margin : 0;
+  padding : 0;
+  font-size : 16px;
+  font-family : serif, sans-serif;
+  }
+  #login-box {
+  margin : 5%;
+  width : 600px;
+  height : 1px;
+  }
+  .semin {
+  position : absolute;
+  top : 200px;
+  box-sizing : border-box;
+  padding : 40px;
+  width : 300px;
+  height : 400px;
+  }
+  h1 {
+  margin : 0 0 20px 0;
+  font-weight : 300;
+  font-size : 28px;
+  }
+  input[type="text"], input[type="password"] {
+  display : block;
+  box-sizing : border-box;
+  margin-bottom : 20px;
+  padding : 4px;
+  width : 220px;
+  height : 32px;
+  }
+  input[type="submit"] {
+  margin-top : 28px;
+  width : 120px;
+  height : 32px;
+  background : #16a085;
+  border : none;
+  border-radius : 2px;
+  color : #FFF;
+  font-family : serif, sans-serif;
+  font-weight : 500;
+  text-transform : uppercase;
+  }
+  input[type="submit"]:hover, input[type="submit"]:focus {
+  opacity : 0.8;
+  box-shadow : 0 2px 4px rgb(0, 0, 0, 0.4);
+  transition : 0.1s ease;
+  }
+  input[type="submit"]:active {
+  opacity : 1;
+  box-shadow : 0 1px 2px rgb(0, 0, 0, 0.4);
+  transition : 0.1s ease;
+  }
+
+  /*media queries*/
+
+  @media screen (max-width: 1200px) {
+      #home {
+      width: 65%;
+      height: 1200px;
+      width: 100%;
+      clear: both;
+      height: 150px;
+      padding: 0;
+    }
+     #Slogo {
+      width: 90%;
+      height: 1200px;
+      margin: 0 auto;
+    }  
+
+    #little-girl {
+      width: 90%;
+      height: 1200px;
+      margin: 0 auto;
+    }
+
+    #hdgirl {
+      width: 90%;
+      height: 1200px;
+      margin: 0 auto;
+
+
+    hr {
+      display: none;
+    }  
+
+    #seminer > div {
+      width: 100%;
+      clear: both;
+      height: 150px;
+      padding: 0;
+    }
+
+    #girdle{
+      width: 100%;
+      clear: both;
+      height: 150px;
+      padding: 0;
+    }
+    hr {
+      display: none;
+    }  
+  
+  footer {
+    text-align: center;
+    padding: 0 20px;
 }
 
-#seminer h2, h3 {
-  color: yellow;  
+
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+#Slogo, #home {
+  width: 90%;
+  height: 1200px;
+  margin: 0 auto;
 }
 
 
-
-
-body {
-  margin: 0;
-  padding: 0;
- 
-  font-size: 16px;
-
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300px;
-}
 
 #login-box {
-  position: left;
-  margin: 5% auto;
-  width: 600px;
-  height: 1px;
-}
-
-.semin {
-  position: absolute;
-  top: 200px;
-  position: center;
-  box-sizing: border-box;
-  padding: 40px;
-  width: 300px;
-  height: 400px;
-}
-
-h1 {
-  margin: 0 0 20px 0;
-  font-weight: 300;
-  font-size: 28px;
-}
-
-input[type="text"],
-input[type="password"] {
-  display: block;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  padding: 4px;
-  width: 220px;
-  height: 32px;
-  
- 
-
+  width: 90%;
+  height: 1200px;
+  margin: 0 auto;
 
 }
 
-
-
-input[type="submit"] {
-  margin-top: 28px;
-  width: 120px;
-  height: 32px;
-  background: #16a085;
-  border: none;
-  border-radius: 2px;
-  color: #FFF;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
- 
+#seminer > div {
+  width: 100%;
+  clear: both;
+  height: 150px;
+  padding: 0;
 }
 
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-  opacity: 0.8;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  transition: 0.1s ease;
 }
-
-input[type="submit"]:active {
-  opacity: 1;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
-  transition: 0.1s ease;
-}
-
-

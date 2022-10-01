@@ -118,7 +118,7 @@ body {
   }
   footer {
   height : 400px;
-  margin-left : 10px;
+  margin: 118px;
   }
   hr {
   border-top : 1px solid #3a3a3a;
@@ -155,13 +155,12 @@ body {
   color : #fafafa;
   background-color : rgb(0, 0, 0, 0.6);
   width : 20%;
-
-  float : left;
+   float : left;
   padding : 30px 0 0 10px;
   text-align : left;
   border : #3a3a3a solid 2px;
   box-sizing : border-box;
-  margin-top : 450px;
+  
   }
   #seminer h2, h3 {
   color : yellow;
@@ -178,9 +177,9 @@ body {
   height : 1px;
   }
   .semin {
-  position : absolute;
+  
   box-sizing : border-box;
-  padding : 200px;
+  padding : 51px;
  
   }
   h1 {
@@ -197,7 +196,7 @@ body {
   }
   #Slogo {
   width : 90%;
-  height : 1200px;
+ 
   margin : 0 auto;
   }
   #little-girl {

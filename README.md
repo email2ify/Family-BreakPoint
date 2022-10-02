@@ -72,7 +72,7 @@ In this page the sign-up is for families interested in joining the fight against
 <h2><Strong>Unfixed Bugs</strong></h2>
 
 <ul>
-<p>Fixed except others</p>
+<p>Fixed except otherwise</p>
 </ul>
 
 

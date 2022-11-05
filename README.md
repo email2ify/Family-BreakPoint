@@ -2,7 +2,9 @@
 Family Break-Point is a webpage for families and children, where they gather together and share their experiences living with Limb-Girdle Muscular Dystrophy.
 This website is basically for children with hereditory progressive muscle diseases, in which the muscle fibers slowly break down as they grow. 
 The webpage will enlighten the users on how muscle fibers slowly break down and are replaced by connective tissues and fat.
-![mockup](doc/readme_images/mockup.JPG)
+
+
+![image](/docs/Family-BreakPoint.PNG)
 
 
  <h2><Strong>Features:</strong></h2>
@@ -69,13 +71,21 @@ In this page the sign-up is for families interested in joining the fight against
 <p>HTML and CSS were errors free and passing through the official W3C Validator.
 </p>
 
+![image](/docs/fam-css.PNG)
+
+![image](/docs/Fam-Html.PNG)
+
+
 <h2><Strong>Unfixed Bugs</strong></h2>
 
 <ul>
-<p>Fixed except otherwise</p>
+<p>None</p>
 </ul>
 
+ 
+ <h2><Strong>For Lighthouse Testing</strong></h2>
 
+![image](/docs/LightHouse%20(2).PNG)
 
 
 
@@ -99,17 +109,6 @@ In this page the sign-up is for families interested in joining the fight against
 <h2><Strong>Credits</strong></h2>
 <p>Credits to Code institute walkthrough project and W3School</p>
 
-
-
-
-<h2><Strong>Content</strong></h2>
-
-
-</ul>
-<p>Content</p>
-</ul>
-
-<h2><Strong>Media</strong></h2>
 
 
 </ul>
